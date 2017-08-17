@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "staging": {
+    "host": "moveta-vpc-staging01-cluster.cluster-catyho1yk2mi.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "url": "",
+    "database": "moveta",
+    "password": "rBEpskFLyMmcSlR2U5eE730",
+    "name": "staging",
+    "user": "staging",
+    "connector": "mysql"
+  }
+}

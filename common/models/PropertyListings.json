@@ -1,0 +1,3915 @@
+{
+	"name": "PropertyListings",
+	"properties": {
+		"mlNum": {
+			"type": "string",
+			"required": true,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"id": 1,
+			"mysql": {
+				"columnName": "Ml_num",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "N"
+			}
+		},
+		"heatInc": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Heat_inc",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm11Out": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm11_out",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm7Dc3Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm7_dc3_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"specDes6Out": {
+			"type": "string",
+			"required": false,
+			"length": 27,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Spec_des6_out",
+				"dataType": "varchar",
+				"dataLength": 27,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetT1": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_t1",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"ohDate1": {
+			"type": "string",
+			"required": false,
+			"length": 25,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Oh_date1",
+				"dataType": "varchar",
+				"dataLength": 25,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"ohDate2": {
+			"type": "string",
+			"required": false,
+			"length": 25,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Oh_date2",
+				"dataType": "varchar",
+				"dataLength": 25,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"ohDate3": {
+			"type": "string",
+			"required": false,
+			"length": 25,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Oh_date3",
+				"dataType": "varchar",
+				"dataLength": 25,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"ohDtStamp": {
+			"type": "string",
+			"required": false,
+			"length": 25,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Oh_dt_stamp",
+				"dataType": "varchar",
+				"dataLength": 25,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"ohTo1": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Oh_to1",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"ohTo2": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Oh_to2",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"ohTo3": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Oh_to3",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"ohFrom1": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Oh_from1",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"ohFrom2": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Oh_from2",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"ohFrom3": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Oh_from3",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"aC": {
+			"type": "string",
+			"required": false,
+			"length": 11,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "A_c",
+				"dataType": "varchar",
+				"dataLength": 11,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"heating": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Heating",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"hydroInc": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Hydro_inc",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"irreg": {
+			"type": "string",
+			"required": false,
+			"length": 40,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Irreg",
+				"dataType": "varchar",
+				"dataLength": 40,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"kitPlus": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Kit_plus",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"laundry": {
+			"type": "string",
+			"required": false,
+			"length": 13,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Laundry",
+				"dataType": "varchar",
+				"dataLength": 13,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"laundryLev": {
+			"type": "string",
+			"required": false,
+			"length": 5,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Laundry_lev",
+				"dataType": "varchar",
+				"dataLength": 5,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"leaseTerm": {
+			"type": "string",
+			"required": false,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Lease_term",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"legalDesc": {
+			"type": "string",
+			"required": false,
+			"length": 50,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Legal_desc",
+				"dataType": "varchar",
+				"dataLength": 50,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"level1": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Level1",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"level10": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Level10",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"level11": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Level11",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"level12": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Level12",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"level2": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Level2",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"level3": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Level3",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"level4": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Level4",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"level5": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Level5",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"level6": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Level6",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"level7": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Level7",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"level8": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Level8",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"level9": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Level9",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"lotszCode": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Lotsz_code",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"lpDol": {
+			"type": "number",
+			"required": false,
+			"length": null,
+			"precision": 10,
+			"scale": 0,
+			"mysql": {
+				"columnName": "Lp_dol",
+				"dataType": "int",
+				"dataLength": null,
+				"dataPrecision": 10,
+				"dataScale": 0,
+				"nullable": "Y"
+			}
+		},
+		"mmapCol": {
+			"type": "string",
+			"required": false,
+			"length": 3,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Mmap_col",
+				"dataType": "varchar",
+				"dataLength": 3,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"mmapPage": {
+			"type": "string",
+			"required": false,
+			"length": 4,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Mmap_page",
+				"dataType": "varchar",
+				"dataLength": 4,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"mmapRow": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Mmap_row",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"acres": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Acres",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"adText": {
+			"type": "string",
+			"required": false,
+			"length": 463,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Ad_text",
+				"dataType": "varchar",
+				"dataLength": 463,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"addlMoFee": {
+			"type": "string",
+			"required": false,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Addl_mo_fee",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"addr": {
+			"type": "string",
+			"required": false,
+			"length": 35,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Addr",
+				"dataType": "varchar",
+				"dataLength": 35,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"allInc": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "All_inc",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"aptNum": {
+			"type": "string",
+			"required": false,
+			"length": 7,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Apt_num",
+				"dataType": "varchar",
+				"dataLength": 7,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"assYear": {
+			"type": "string",
+			"required": false,
+			"length": 5,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Ass_year",
+				"dataType": "varchar",
+				"dataLength": 5,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"bathTot": {
+			"type": "string",
+			"required": false,
+			"length": 3,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Bath_tot",
+				"dataType": "varchar",
+				"dataLength": 3,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"br": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Br",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"brPlus": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Br_plus",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"bsmt1Out": {
+			"type": "string",
+			"required": false,
+			"length": 12,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Bsmt1_out",
+				"dataType": "varchar",
+				"dataLength": 12,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"bsmt2Out": {
+			"type": "string",
+			"required": false,
+			"length": 12,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Bsmt2_out",
+				"dataType": "varchar",
+				"dataLength": 12,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"cable": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Cable",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"cacInc": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Cac_inc",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"centralVac": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Central_vac",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"comelInc": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Comel_inc",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"compPts": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Comp_pts",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"constr1Out": {
+			"type": "string",
+			"required": false,
+			"length": 16,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Constr1_out",
+				"dataType": "varchar",
+				"dataLength": 16,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"constr2Out": {
+			"type": "string",
+			"required": false,
+			"length": 16,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Constr2_out",
+				"dataType": "varchar",
+				"dataLength": 16,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"county": {
+			"type": "string",
+			"required": false,
+			"length": 16,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "County",
+				"dataType": "varchar",
+				"dataLength": 16,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"crossSt": {
+			"type": "string",
+			"required": false,
+			"length": 30,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Cross_st",
+				"dataType": "varchar",
+				"dataLength": 30,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"denFr": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Den_fr",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"depth": {
+			"type": "string",
+			"required": false,
+			"length": 7,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Depth",
+				"dataType": "varchar",
+				"dataLength": 7,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"dispAddr": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Disp_addr",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"dom": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Dom",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"drive": {
+			"type": "string",
+			"required": false,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Drive",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"elec": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Elec",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"elevator": {
+			"type": "string",
+			"required": false,
+			"length": 7,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Elevator",
+				"dataType": "varchar",
+				"dataLength": 7,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"extras": {
+			"type": "string",
+			"required": false,
+			"length": 240,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Extras",
+				"dataType": "varchar",
+				"dataLength": 240,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"farmAgri": {
+			"type": "string",
+			"required": false,
+			"length": 12,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Farm_agri",
+				"dataType": "varchar",
+				"dataLength": 12,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"fplNum": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Fpl_num",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"frontFt": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Front_ft",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"fuel": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Fuel",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"furnished": {
+			"type": "string",
+			"required": false,
+			"length": 4,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Furnished",
+				"dataType": "varchar",
+				"dataLength": 4,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"garSpaces": {
+			"type": "string",
+			"required": false,
+			"length": 4,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Gar_spaces",
+				"dataType": "varchar",
+				"dataLength": 4,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"garType": {
+			"type": "string",
+			"required": false,
+			"length": 16,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Gar_type",
+				"dataType": "varchar",
+				"dataLength": 16,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"gas": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Gas",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"numKit": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Num_kit",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"occ": {
+			"type": "string",
+			"required": false,
+			"length": 14,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Occ",
+				"dataType": "varchar",
+				"dataLength": 14,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"origDol": {
+			"type": "number",
+			"required": false,
+			"length": null,
+			"precision": 10,
+			"scale": 0,
+			"mysql": {
+				"columnName": "Orig_dol",
+				"dataType": "int",
+				"dataLength": null,
+				"dataPrecision": 10,
+				"dataScale": 0,
+				"nullable": "Y"
+			}
+		},
+		"othStruc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 14,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Oth_struc1_out",
+				"dataType": "varchar",
+				"dataLength": 14,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"othStruc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 14,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Oth_struc2_out",
+				"dataType": "varchar",
+				"dataLength": 14,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"outofArea": {
+			"type": "string",
+			"required": false,
+			"length": 16,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Outof_area",
+				"dataType": "varchar",
+				"dataLength": 16,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"parcelId": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Parcel_id",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"parkChgs": {
+			"type": "string",
+			"required": false,
+			"length": 7,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Park_chgs",
+				"dataType": "varchar",
+				"dataLength": 7,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"parkSpcs": {
+			"type": "string",
+			"required": false,
+			"length": 5,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Park_spcs",
+				"dataType": "varchar",
+				"dataLength": 5,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"payFreq": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Pay_freq",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"pool": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Pool",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"prkgInc": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Prkg_inc",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"propFeat1Out": {
+			"type": "string",
+			"required": false,
+			"length": 18,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Prop_feat1_out",
+				"dataType": "varchar",
+				"dataLength": 18,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"propFeat2Out": {
+			"type": "string",
+			"required": false,
+			"length": 18,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Prop_feat2_out",
+				"dataType": "varchar",
+				"dataLength": 18,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"propFeat3Out": {
+			"type": "string",
+			"required": false,
+			"length": 18,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Prop_feat3_out",
+				"dataType": "varchar",
+				"dataLength": 18,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"propFeat4Out": {
+			"type": "string",
+			"required": false,
+			"length": 18,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Prop_feat4_out",
+				"dataType": "varchar",
+				"dataLength": 18,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"propFeat5Out": {
+			"type": "string",
+			"required": false,
+			"length": 18,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Prop_feat5_out",
+				"dataType": "varchar",
+				"dataLength": 18,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"propFeat6Out": {
+			"type": "string",
+			"required": false,
+			"length": 18,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Prop_feat6_out",
+				"dataType": "varchar",
+				"dataLength": 18,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"pvtEnt": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Pvt_ent",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"retirement": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Retirement",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rltr": {
+			"type": "string",
+			"required": false,
+			"length": 80,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rltr",
+				"dataType": "varchar",
+				"dataLength": 80,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm1Dc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm1_dc1_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm1Dc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm1_dc2_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm1Dc3Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm1_dc3_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm1Len": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm1_len",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm1Out": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm1_out",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm1Wth": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm1_wth",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm10Dc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm10_dc1_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm10Dc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm10_dc2_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm10Dc3Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm10_dc3_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm10Len": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm10_len",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm10Out": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm10_out",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm10Wth": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm10_wth",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm11Dc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm11_dc1_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm11Dc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm11_dc2_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm11Dc3Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm11_dc3_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm11Len": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm11_len",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm11Wth": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm11_wth",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm12Dc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm12_dc1_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm12Dc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm12_dc2_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm12Dc3Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm12_dc3_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm12Len": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm12_len",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm12Out": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm12_out",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm12Wth": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm12_wth",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm2Dc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm2_dc1_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm2Dc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm2_dc2_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm2Dc3Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm2_dc3_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm2Len": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm2_len",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm2Out": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm2_out",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm2Wth": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm2_wth",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm3Dc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm3_dc1_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm3Dc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm3_dc2_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm3Dc3Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm3_dc3_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm3Len": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm3_len",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm3Out": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm3_out",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm3Wth": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm3_wth",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm4Dc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm4_dc1_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm4Dc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm4_dc2_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm4Dc3Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm4_dc3_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm4Len": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm4_len",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm4Out": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm4_out",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm4Wth": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm4_wth",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm5Dc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm5_dc1_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm5Dc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm5_dc2_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm5Dc3Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm5_dc3_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm5Len": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm5_len",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm5Out": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm5_out",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm5Wth": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm5_wth",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm6Dc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm6_dc1_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm6Dc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm6_dc2_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm6Dc3Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm6_dc3_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm6Len": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm6_len",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm6Out": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm6_out",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm6Wth": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm6_wth",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm7Dc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm7_dc1_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm7Dc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm7_dc2_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm7Len": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm7_len",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm7Out": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm7_out",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm7Wth": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm7_wth",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm8Dc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm8_dc1_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm8Dc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm8_dc2_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm8Dc3Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm8_dc3_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm8Len": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm8_len",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm8Out": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm8_out",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm8Wth": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm8_wth",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm9Dc1Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm9_dc1_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm9Dc2Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm9_dc2_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm9Dc3Out": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm9_dc3_out",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm9Len": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm9_len",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm9Out": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm9_out",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rm9Wth": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rm9_wth",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"rms": {
+			"type": "string",
+			"required": false,
+			"length": 3,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rms",
+				"dataType": "varchar",
+				"dataLength": 3,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"roomsPlus": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Rooms_plus",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"sR": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "S_r",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"sewer": {
+			"type": "string",
+			"required": false,
+			"length": 15,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Sewer",
+				"dataType": "varchar",
+				"dataLength": 15,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"specDes1Out": {
+			"type": "string",
+			"required": false,
+			"length": 27,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Spec_des1_out",
+				"dataType": "varchar",
+				"dataLength": 27,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"specDes2Out": {
+			"type": "string",
+			"required": false,
+			"length": 27,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Spec_des2_out",
+				"dataType": "varchar",
+				"dataLength": 27,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"specDes3Out": {
+			"type": "string",
+			"required": false,
+			"length": 27,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Spec_des3_out",
+				"dataType": "varchar",
+				"dataLength": 27,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"specDes4Out": {
+			"type": "string",
+			"required": false,
+			"length": 27,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Spec_des4_out",
+				"dataType": "varchar",
+				"dataLength": 27,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"specDes5Out": {
+			"type": "string",
+			"required": false,
+			"length": 27,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Spec_des5_out",
+				"dataType": "varchar",
+				"dataLength": 27,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"sqft": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Sqft",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"st": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "St",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"stDir": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "St_dir",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"stNum": {
+			"type": "string",
+			"required": false,
+			"length": 7,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "St_num",
+				"dataType": "varchar",
+				"dataLength": 7,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"stSfx": {
+			"type": "string",
+			"required": false,
+			"length": 4,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "St_sfx",
+				"dataType": "varchar",
+				"dataLength": 4,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"status": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Status",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"style": {
+			"type": "string",
+			"required": false,
+			"length": 16,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Style",
+				"dataType": "varchar",
+				"dataLength": 16,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"taxes": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Taxes",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"tourUrl": {
+			"type": "string",
+			"required": false,
+			"length": 100,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Tour_url",
+				"dataType": "varchar",
+				"dataLength": 100,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"communityCode": {
+			"type": "string",
+			"required": false,
+			"length": 20,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Community_code",
+				"dataType": "varchar",
+				"dataLength": 20,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"areaCode": {
+			"type": "string",
+			"required": false,
+			"length": 4,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Area_code",
+				"dataType": "varchar",
+				"dataLength": 4,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"tv": {
+			"type": "string",
+			"required": false,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Tv",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"typeOwnSrch": {
+			"type": "string",
+			"required": false,
+			"length": 7,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Type_own_srch",
+				"dataType": "varchar",
+				"dataLength": 7,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"typeOwn1Out": {
+			"type": "string",
+			"required": false,
+			"length": 18,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Type_own1_out",
+				"dataType": "varchar",
+				"dataLength": 18,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"uffi": {
+			"type": "string",
+			"required": false,
+			"length": 12,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Uffi",
+				"dataType": "varchar",
+				"dataLength": 12,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"utilCable": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Util_cable",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"utilTel": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Util_tel",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"vendPis": {
+			"type": "string",
+			"required": false,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Vend_pis",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"vtourUpdt": {
+			"type": "string",
+			"required": false,
+			"length": 25,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Vtour_updt",
+				"dataType": "varchar",
+				"dataLength": 25,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"water": {
+			"type": "string",
+			"required": false,
+			"length": 9,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Water",
+				"dataType": "varchar",
+				"dataLength": 9,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"waterInc": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Water_inc",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"waterfront": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Waterfront",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetP1": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_p1",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetP2": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_p2",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetP3": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_p3",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetP4": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_p4",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetP5": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_p5",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetT1lvl": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_t1lvl",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetT2": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_t2",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetT2lvl": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_t2lvl",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetT3": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_t3",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetT3lvl": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_t3lvl",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetT4": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_t4",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetT4lvl": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_t4lvl",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetT5": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_t5",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wclosetT5lvl": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wcloset_t5lvl",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"wtrSuptyp": {
+			"type": "string",
+			"required": false,
+			"length": 12,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Wtr_suptyp",
+				"dataType": "varchar",
+				"dataLength": 12,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"yr": {
+			"type": "string",
+			"required": false,
+			"length": 5,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Yr",
+				"dataType": "varchar",
+				"dataLength": 5,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"yrBuilt": {
+			"type": "string",
+			"required": false,
+			"length": 5,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Yr_built",
+				"dataType": "varchar",
+				"dataLength": 5,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"zip": {
+			"type": "string",
+			"required": false,
+			"length": 7,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Zip",
+				"dataType": "varchar",
+				"dataLength": 7,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"zoning": {
+			"type": "string",
+			"required": false,
+			"length": 40,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Zoning",
+				"dataType": "varchar",
+				"dataLength": 40,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"timestampSql": {
+			"type": "date",
+			"required": false,
+			"length": null,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Timestamp_sql",
+				"dataType": "datetime",
+				"dataLength": null,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"municipalityCode": {
+			"type": "string",
+			"required": false,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Municipality_code",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"area": {
+			"type": "string",
+			"required": false,
+			"length": 40,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Area",
+				"dataType": "varchar",
+				"dataLength": 40,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"community": {
+			"type": "string",
+			"required": false,
+			"length": 44,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Community",
+				"dataType": "varchar",
+				"dataLength": 44,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"certLvl": {
+			"type": "string",
+			"required": false,
+			"length": 25,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Cert_lvl",
+				"dataType": "varchar",
+				"dataLength": 25,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"energyCert": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Energy_cert",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"handiEquipped": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Handi_equipped",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"municipalityDistrict": {
+			"type": "string",
+			"required": false,
+			"length": 44,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Municipality_district",
+				"dataType": "varchar",
+				"dataLength": 44,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"municipality": {
+			"type": "string",
+			"required": false,
+			"length": 40,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Municipality",
+				"dataType": "varchar",
+				"dataLength": 40,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"pixUpdt": {
+			"type": "date",
+			"required": false,
+			"length": null,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Pix_updt",
+				"dataType": "datetime",
+				"dataLength": null,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"greenPis": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Green_pis",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"locker": {
+			"type": "string",
+			"required": false,
+			"length": 17,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Locker",
+				"dataType": "varchar",
+				"dataLength": 17,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"lockerNum": {
+			"type": "string",
+			"required": false,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Locker_num",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"maint": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Maint",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"condTxinc": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Cond_txinc",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"condoCorp": {
+			"type": "string",
+			"required": false,
+			"length": 4,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Condo_corp",
+				"dataType": "varchar",
+				"dataLength": 4,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"condoExp": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Condo_exp",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"corpNum": {
+			"type": "string",
+			"required": false,
+			"length": 5,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Corp_num",
+				"dataType": "varchar",
+				"dataLength": 5,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"ensLndry": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Ens_lndry",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"gar": {
+			"type": "string",
+			"required": false,
+			"length": 4,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Gar",
+				"dataType": "varchar",
+				"dataLength": 4,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"insurBldg": {
+			"type": "string",
+			"required": false,
+			"length": 2,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Insur_bldg",
+				"dataType": "varchar",
+				"dataLength": 2,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"pets": {
+			"type": "string",
+			"required": false,
+			"length": 8,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Pets",
+				"dataType": "varchar",
+				"dataLength": 8,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"propMgmt": {
+			"type": "string",
+			"required": false,
+			"length": 60,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Prop_mgmt",
+				"dataType": "varchar",
+				"dataLength": 60,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"stories": {
+			"type": "string",
+			"required": false,
+			"length": 3,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Stories",
+				"dataType": "varchar",
+				"dataLength": 3,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"unitNum": {
+			"type": "string",
+			"required": false,
+			"length": 4,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Unit_num",
+				"dataType": "varchar",
+				"dataLength": 4,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"parkDesig": {
+			"type": "string",
+			"required": false,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Park_desig",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"parkDesig2": {
+			"type": "string",
+			"required": false,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Park_desig_2",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"parkFac": {
+			"type": "string",
+			"required": false,
+			"length": 10,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Park_fac",
+				"dataType": "varchar",
+				"dataLength": 10,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"parkLglDesc1": {
+			"type": "string",
+			"required": false,
+			"length": 15,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Park_lgl_desc1",
+				"dataType": "varchar",
+				"dataLength": 15,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"parkLglDesc2": {
+			"type": "string",
+			"required": false,
+			"length": 15,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Park_lgl_desc2",
+				"dataType": "varchar",
+				"dataLength": 15,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"parkSpc1": {
+			"type": "string",
+			"required": false,
+			"length": 4,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Park_spc1",
+				"dataType": "varchar",
+				"dataLength": 4,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"parkSpc2": {
+			"type": "string",
+			"required": false,
+			"length": 4,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Park_spc2",
+				"dataType": "varchar",
+				"dataLength": 4,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"patioTer": {
+			"type": "string",
+			"required": false,
+			"length": 4,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Patio_ter",
+				"dataType": "varchar",
+				"dataLength": 4,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"sharePerc": {
+			"type": "string",
+			"required": false,
+			"length": 6,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Share_perc",
+				"dataType": "varchar",
+				"dataLength": 6,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"bldgAmen1Out": {
+			"type": "string",
+			"required": false,
+			"length": 27,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Bldg_amen1_out",
+				"dataType": "varchar",
+				"dataLength": 27,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"bldgAmen2Out": {
+			"type": "string",
+			"required": false,
+			"length": 27,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Bldg_amen2_out",
+				"dataType": "varchar",
+				"dataLength": 27,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"bldgAmen3Out": {
+			"type": "string",
+			"required": false,
+			"length": 27,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Bldg_amen3_out",
+				"dataType": "varchar",
+				"dataLength": 27,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"bldgAmen4Out": {
+			"type": "string",
+			"required": false,
+			"length": 27,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Bldg_amen4_out",
+				"dataType": "varchar",
+				"dataLength": 27,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"bldgAmen5Out": {
+			"type": "string",
+			"required": false,
+			"length": 27,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Bldg_amen5_out",
+				"dataType": "varchar",
+				"dataLength": 27,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		},
+		"bldgAmen6Out": {
+			"type": "string",
+			"required": false,
+			"length": 27,
+			"precision": null,
+			"scale": null,
+			"mysql": {
+				"columnName": "Bldg_amen6_out",
+				"dataType": "varchar",
+				"dataLength": 27,
+				"dataPrecision": null,
+				"dataScale": null,
+				"nullable": "Y"
+			}
+		}
+	},
+	"settings": {
+		"strict": false,
+		"replaceOnPUT": true,
+		"idInjection": false,
+		"mysql": {
+			"schema": "moveta",
+			"table": "property_listings"
+		}
+	}
+}

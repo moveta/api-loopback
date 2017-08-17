@@ -1,0 +1,291 @@
+{
+	"_meta": {
+		"sources": [
+			"loopback/common/models",
+			"loopback/server/models",
+			"../common/models",
+			"./models"
+		],
+		"mixins": [
+			"loopback/common/mixins",
+			"loopback/server/mixins",
+			"../common/mixins",
+			"./mixins"
+		]
+	},
+	"User": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"AccessToken": {
+		"dataSource": "db",
+		"public": false
+	},
+	"ACL": {
+		"dataSource": "db",
+		"public": false
+	},
+	"RoleMapping": {
+		"dataSource": "db",
+		"public": false,
+		"options": {
+			"strictObjectIDCoercion": true
+		}
+	},
+	"Role": {
+		"dataSource": "db",
+		"public": false
+	},
+	"AdPermission": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Agents": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"AgentsAssignment": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"City": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"CityMunicipality": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"CommercialListings": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"CondoProfile": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"CondosCaCity": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"CondosCaMunicipality": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"CondosCaNeighbourhood": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"CondosCaNeighbourhoodWeb": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicAge": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicChildren": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicConstruction": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicEducation": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicEmployment": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicGender": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicGeneral": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicIncome": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicMaritalstatus": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicMothertongue": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicNeighbourhood": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicOwnership": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicReligion": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicWorklocation": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"DemographicWorktransportation": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Demographics": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Division": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Favorites": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Leads": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"LeadsNotes": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"LeadsType": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Listings": {
+		"dataSource": "staging",
+		"public": true
+	},
+	"ListingsType": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Municipality": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Neighbourhood": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"NeighbourhoodProfile": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"PriceRange": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"PropertyListings": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"PropertyType": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Province": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Schools": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Stats": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Template": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"TemplateCriteria": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"TemplateModule": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"TemplateType": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"UnlistedListings": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"UserHistory": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"UserHistoryType": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"Vertical": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"WpCommentmeta": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"WpComments": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"WpLinks": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"WpOptions": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"WpPostmeta": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"WpPosts": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"WpTermRelationships": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"WpTermTaxonomy": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"WpTermmeta": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"WpTerms": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"WpUsermeta": {
+		"dataSource": "staging",
+		"public": false
+	},
+	"WpUsers": {
+		"dataSource": "staging",
+		"public": false
+	}
+}
