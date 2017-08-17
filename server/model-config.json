@@ -14,8 +14,7 @@
 		]
 	},
 	"User": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "db"
 	},
 	"AccessToken": {
 		"dataSource": "db",
@@ -37,255 +36,255 @@
 		"public": false
 	},
 	"AdPermission": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"Agents": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"AgentsAssignment": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"City": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"CityMunicipality": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"CommercialListings": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"CondoProfile": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"CondosCaCity": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"CondosCaMunicipality": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"CondosCaNeighbourhood": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"CondosCaNeighbourhoodWeb": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicAge": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicChildren": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicConstruction": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicEducation": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicEmployment": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicGender": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicGeneral": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicIncome": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicMaritalstatus": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicMothertongue": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicNeighbourhood": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicOwnership": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicReligion": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicWorklocation": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicWorktransportation": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Demographics": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Division": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Favorites": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Leads": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"LeadsNotes": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"LeadsType": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Listings": {
-		"dataSource": "staging",
-		"public": true
+		"dataSource": "sandbox_himanshu",
+		"public": false
 	},
 	"ListingsType": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Municipality": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Neighbourhood": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"NeighbourhoodProfile": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"PriceRange": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"PropertyListings": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"PropertyType": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Province": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Schools": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Stats": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Template": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"TemplateCriteria": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"TemplateModule": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"TemplateType": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"UnlistedListings": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"UserHistory": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"UserHistoryType": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Vertical": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"WpCommentmeta": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"WpComments": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"WpLinks": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"WpOptions": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"WpPostmeta": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"WpPosts": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"WpTermRelationships": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"WpTermTaxonomy": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"WpTermmeta": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"WpTerms": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"WpUsermeta": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"WpUsers": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	}
 }
