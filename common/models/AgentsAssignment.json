@@ -53,7 +53,7 @@
 		"replaceOnPUT": true,
 		"idInjection": false,
 		"mysql": {
-			"schema": "moveta",
+			"schema": "sandbox_himanshu",
 			"table": "agents_assignment"
 		}
 	}
