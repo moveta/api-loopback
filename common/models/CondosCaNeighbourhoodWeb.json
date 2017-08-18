@@ -1,209 +1,208 @@
 {
-	"name": "CondosCaNeighbourhoodWeb",
-	"properties": {
-		"nbhId": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "nbh_id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"name": {
-			"type": "string",
-			"required": false,
-			"length": 36,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "name",
-				"dataType": "varchar",
-				"dataLength": 36,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"condoBuildings": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "Condo_Buildings",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"newCondoBuildings": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "New_Condo_Buildings",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"averagePricePerSqft": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "Average_Price_per_SQFT",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"condosForSale": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "Condos_for_Sale",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"condosForRent": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "Condos_for_Rent",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"assignments": {
-			"type": "string",
-			"required": false,
-			"length": 9,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Assignments",
-				"dataType": "varchar",
-				"dataLength": 9,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"id": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"parentId": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "parent_id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"grandparentId": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "grandparent_id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"boundingPolygon": {
-			"type": "buffer",
-			"required": false,
-			"length": 65535,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "bounding_polygon",
-				"dataType": "blob",
-				"dataLength": 65535,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"jsonPolygon": {
-			"type": "buffer",
-			"required": false,
-			"length": 65535,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "json_polygon",
-				"dataType": "blob",
-				"dataLength": 65535,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		}
-	},
-	"settings": {
-		"strict": false,
-		"replaceOnPUT": true,
-		"idInjection": false,
-		"mysql": {
-			"schema": "moveta",
-			"table": "condos_ca_neighbourhood_web"
-		}
-	}
+  "name": "CondosCaNeighbourhoodWeb",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "condos_ca_neighbourhood_web"
+    }
+  },
+  "properties": {
+    "nbhId": {
+      "type": "number",
+      "id": true,
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "nbh_id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "name": {
+      "type": "string",
+      "required": false,
+      "length": 36,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "name",
+        "dataType": "varchar",
+        "dataLength": 36,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "condoBuildings": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "Condo_Buildings",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "newCondoBuildings": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "New_Condo_Buildings",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "averagePricePerSqft": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "Average_Price_per_SQFT",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "condosForSale": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "Condos_for_Sale",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "condosForRent": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "Condos_for_Rent",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "assignments": {
+      "type": "string",
+      "required": false,
+      "length": 9,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Assignments",
+        "dataType": "varchar",
+        "dataLength": 9,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "id": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "parentId": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "parent_id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "grandparentId": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "grandparent_id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "boundingPolygon": {
+      "type": "buffer",
+      "required": false,
+      "length": 65535,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "bounding_polygon",
+        "dataType": "blob",
+        "dataLength": 65535,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "jsonPolygon": {
+      "type": "buffer",
+      "required": false,
+      "length": 65535,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "json_polygon",
+        "dataType": "blob",
+        "dataLength": 65535,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    }
+  }
 }

@@ -1,120 +1,118 @@
 {
-	"name": "NeighbourhoodProfile",
-	"properties": {
-		"id": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"id": 1,
-			"mysql": {
-				"columnName": "id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		},
-		"neighbourhoodId": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "neighbourhood_id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"neighbourhood": {
-			"type": "string",
-			"required": false,
-			"length": 44,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Neighbourhood",
-				"dataType": "varchar",
-				"dataLength": 44,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"description": {
-			"type": "string",
-			"required": false,
-			"length": 4294967295,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Description",
-				"dataType": "longtext",
-				"dataLength": 4294967295,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"awsUrl": {
-			"type": "string",
-			"required": false,
-			"length": 255,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Aws_url",
-				"dataType": "varchar",
-				"dataLength": 255,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"youtubeUrl": {
-			"type": "string",
-			"required": false,
-			"length": 255,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Youtube_url",
-				"dataType": "varchar",
-				"dataLength": 255,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"images": {
-			"type": "string",
-			"required": false,
-			"length": 4294967295,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "images",
-				"dataType": "longtext",
-				"dataLength": 4294967295,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		}
-	},
-	"settings": {
-		"strict": false,
-		"replaceOnPUT": true,
-		"idInjection": false,
-		"mysql": {
-			"schema": "moveta",
-			"table": "neighbourhood_profile"
-		}
-	}
+  "name": "NeighbourhoodProfile",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "neighbourhood_profile"
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "id": 1,
+      "mysql": {
+        "columnName": "id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "neighbourhoodId": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "neighbourhood_id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "neighbourhood": {
+      "type": "string",
+      "required": false,
+      "length": 44,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Neighbourhood",
+        "dataType": "varchar",
+        "dataLength": 44,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "length": 4294967295,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Description",
+        "dataType": "longtext",
+        "dataLength": 4294967295,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "awsUrl": {
+      "type": "string",
+      "required": false,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Aws_url",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "youtubeUrl": {
+      "type": "string",
+      "required": false,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Youtube_url",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "images": {
+      "type": "string",
+      "required": false,
+      "length": 4294967295,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "images",
+        "dataType": "longtext",
+        "dataLength": 4294967295,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    }
+  }
 }

@@ -1,75 +1,73 @@
 {
-	"name": "WpCommentmeta",
-	"properties": {
-		"metaId": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 20,
-			"scale": 0,
-			"id": 1,
-			"mysql": {
-				"columnName": "meta_id",
-				"dataType": "bigint",
-				"dataLength": null,
-				"dataPrecision": 20,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		},
-		"commentId": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 20,
-			"scale": 0,
-			"mysql": {
-				"columnName": "comment_id",
-				"dataType": "bigint",
-				"dataLength": null,
-				"dataPrecision": 20,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		},
-		"metaKey": {
-			"type": "string",
-			"required": false,
-			"length": 255,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "meta_key",
-				"dataType": "varchar",
-				"dataLength": 255,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"metaValue": {
-			"type": "string",
-			"required": false,
-			"length": 4294967295,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "meta_value",
-				"dataType": "longtext",
-				"dataLength": 4294967295,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		}
-	},
-	"settings": {
-		"strict": false,
-		"replaceOnPUT": true,
-		"idInjection": false,
-		"mysql": {
-			"schema": "moveta",
-			"table": "wp_commentmeta"
-		}
-	}
+  "name": "WpCommentmeta",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "wp_commentmeta"
+    }
+  },
+  "properties": {
+    "metaId": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "length": null,
+      "precision": 20,
+      "scale": 0,
+      "mysql": {
+        "columnName": "meta_id",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "commentId": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 20,
+      "scale": 0,
+      "mysql": {
+        "columnName": "comment_id",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "metaKey": {
+      "type": "string",
+      "required": false,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "meta_key",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "metaValue": {
+      "type": "string",
+      "required": false,
+      "length": 4294967295,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "meta_value",
+        "dataType": "longtext",
+        "dataLength": 4294967295,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    }
+  }
 }

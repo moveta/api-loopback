@@ -1,360 +1,358 @@
 {
-	"name": "WpPosts",
-	"properties": {
-		"id": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 20,
-			"scale": 0,
-			"id": 1,
-			"mysql": {
-				"columnName": "ID",
-				"dataType": "bigint",
-				"dataLength": null,
-				"dataPrecision": 20,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		},
-		"postAuthor": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 20,
-			"scale": 0,
-			"mysql": {
-				"columnName": "post_author",
-				"dataType": "bigint",
-				"dataLength": null,
-				"dataPrecision": 20,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		},
-		"postDate": {
-			"type": "date",
-			"required": true,
-			"length": null,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_date",
-				"dataType": "datetime",
-				"dataLength": null,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"postDateGmt": {
-			"type": "date",
-			"required": true,
-			"length": null,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_date_gmt",
-				"dataType": "datetime",
-				"dataLength": null,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"postContent": {
-			"type": "string",
-			"required": true,
-			"length": 4294967295,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_content",
-				"dataType": "longtext",
-				"dataLength": 4294967295,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"postTitle": {
-			"type": "string",
-			"required": true,
-			"length": 65535,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_title",
-				"dataType": "text",
-				"dataLength": 65535,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"postExcerpt": {
-			"type": "string",
-			"required": true,
-			"length": 65535,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_excerpt",
-				"dataType": "text",
-				"dataLength": 65535,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"postStatus": {
-			"type": "string",
-			"required": true,
-			"length": 20,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_status",
-				"dataType": "varchar",
-				"dataLength": 20,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"commentStatus": {
-			"type": "string",
-			"required": true,
-			"length": 20,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "comment_status",
-				"dataType": "varchar",
-				"dataLength": 20,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"pingStatus": {
-			"type": "string",
-			"required": true,
-			"length": 20,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "ping_status",
-				"dataType": "varchar",
-				"dataLength": 20,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"postPassword": {
-			"type": "string",
-			"required": true,
-			"length": 255,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_password",
-				"dataType": "varchar",
-				"dataLength": 255,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"postName": {
-			"type": "string",
-			"required": true,
-			"length": 200,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_name",
-				"dataType": "varchar",
-				"dataLength": 200,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"toPing": {
-			"type": "string",
-			"required": true,
-			"length": 65535,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "to_ping",
-				"dataType": "text",
-				"dataLength": 65535,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"pinged": {
-			"type": "string",
-			"required": true,
-			"length": 65535,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "pinged",
-				"dataType": "text",
-				"dataLength": 65535,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"postModified": {
-			"type": "date",
-			"required": true,
-			"length": null,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_modified",
-				"dataType": "datetime",
-				"dataLength": null,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"postModifiedGmt": {
-			"type": "date",
-			"required": true,
-			"length": null,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_modified_gmt",
-				"dataType": "datetime",
-				"dataLength": null,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"postContentFiltered": {
-			"type": "string",
-			"required": true,
-			"length": 4294967295,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_content_filtered",
-				"dataType": "longtext",
-				"dataLength": 4294967295,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"postParent": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 20,
-			"scale": 0,
-			"mysql": {
-				"columnName": "post_parent",
-				"dataType": "bigint",
-				"dataLength": null,
-				"dataPrecision": 20,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		},
-		"guid": {
-			"type": "string",
-			"required": true,
-			"length": 255,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "guid",
-				"dataType": "varchar",
-				"dataLength": 255,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"menuOrder": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "menu_order",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		},
-		"postType": {
-			"type": "string",
-			"required": true,
-			"length": 20,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_type",
-				"dataType": "varchar",
-				"dataLength": 20,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"postMimeType": {
-			"type": "string",
-			"required": true,
-			"length": 100,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "post_mime_type",
-				"dataType": "varchar",
-				"dataLength": 100,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"commentCount": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 19,
-			"scale": 0,
-			"mysql": {
-				"columnName": "comment_count",
-				"dataType": "bigint",
-				"dataLength": null,
-				"dataPrecision": 19,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		}
-	},
-	"settings": {
-		"strict": false,
-		"replaceOnPUT": true,
-		"idInjection": false,
-		"mysql": {
-			"schema": "moveta",
-			"table": "wp_posts"
-		}
-	}
+  "name": "WpPosts",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "wp_posts"
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 20,
+      "scale": 0,
+      "id": 1,
+      "mysql": {
+        "columnName": "ID",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "postAuthor": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 20,
+      "scale": 0,
+      "mysql": {
+        "columnName": "post_author",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "postDate": {
+      "type": "date",
+      "required": true,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_date",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "postDateGmt": {
+      "type": "date",
+      "required": true,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_date_gmt",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "postContent": {
+      "type": "string",
+      "required": true,
+      "length": 4294967295,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_content",
+        "dataType": "longtext",
+        "dataLength": 4294967295,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "postTitle": {
+      "type": "string",
+      "required": true,
+      "length": 65535,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_title",
+        "dataType": "text",
+        "dataLength": 65535,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "postExcerpt": {
+      "type": "string",
+      "required": true,
+      "length": 65535,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_excerpt",
+        "dataType": "text",
+        "dataLength": 65535,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "postStatus": {
+      "type": "string",
+      "required": true,
+      "length": 20,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_status",
+        "dataType": "varchar",
+        "dataLength": 20,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "commentStatus": {
+      "type": "string",
+      "required": true,
+      "length": 20,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "comment_status",
+        "dataType": "varchar",
+        "dataLength": 20,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "pingStatus": {
+      "type": "string",
+      "required": true,
+      "length": 20,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "ping_status",
+        "dataType": "varchar",
+        "dataLength": 20,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "postPassword": {
+      "type": "string",
+      "required": true,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_password",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "postName": {
+      "type": "string",
+      "required": true,
+      "length": 200,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_name",
+        "dataType": "varchar",
+        "dataLength": 200,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "toPing": {
+      "type": "string",
+      "required": true,
+      "length": 65535,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "to_ping",
+        "dataType": "text",
+        "dataLength": 65535,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "pinged": {
+      "type": "string",
+      "required": true,
+      "length": 65535,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "pinged",
+        "dataType": "text",
+        "dataLength": 65535,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "postModified": {
+      "type": "date",
+      "required": true,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_modified",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "postModifiedGmt": {
+      "type": "date",
+      "required": true,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_modified_gmt",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "postContentFiltered": {
+      "type": "string",
+      "required": true,
+      "length": 4294967295,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_content_filtered",
+        "dataType": "longtext",
+        "dataLength": 4294967295,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "postParent": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 20,
+      "scale": 0,
+      "mysql": {
+        "columnName": "post_parent",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 20,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "guid": {
+      "type": "string",
+      "required": true,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "guid",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "menuOrder": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "menu_order",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "postType": {
+      "type": "string",
+      "required": true,
+      "length": 20,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_type",
+        "dataType": "varchar",
+        "dataLength": 20,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "postMimeType": {
+      "type": "string",
+      "required": true,
+      "length": 100,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "post_mime_type",
+        "dataType": "varchar",
+        "dataLength": 100,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "commentCount": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 19,
+      "scale": 0,
+      "mysql": {
+        "columnName": "comment_count",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 19,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    }
+  }
 }

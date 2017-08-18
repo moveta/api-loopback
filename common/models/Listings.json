@@ -1,630 +1,628 @@
 {
-	"name": "Listings",
-	"properties": {
-		"mlNum": {
-			"type": "string",
-			"required": true,
-			"length": 10,
-			"precision": null,
-			"scale": null,
-			"id": 1,
-			"mysql": {
-				"columnName": "Ml_num",
-				"dataType": "varchar",
-				"dataLength": 10,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"addr": {
-			"type": "string",
-			"required": false,
-			"length": 35,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Addr",
-				"dataType": "varchar",
-				"dataLength": 35,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"aptNum": {
-			"type": "string",
-			"required": false,
-			"length": 7,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Apt_num",
-				"dataType": "varchar",
-				"dataLength": 7,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"unitNum": {
-			"type": "string",
-			"required": false,
-			"length": 4,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Unit_num",
-				"dataType": "varchar",
-				"dataLength": 4,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"adText": {
-			"type": "string",
-			"required": false,
-			"length": 463,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Ad_text",
-				"dataType": "varchar",
-				"dataLength": 463,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"br": {
-			"type": "string",
-			"required": false,
-			"length": 2,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Br",
-				"dataType": "varchar",
-				"dataLength": 2,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"brPlus": {
-			"type": "string",
-			"required": false,
-			"length": 2,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Br_plus",
-				"dataType": "varchar",
-				"dataLength": 2,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"bathTot": {
-			"type": "string",
-			"required": false,
-			"length": 3,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Bath_tot",
-				"dataType": "varchar",
-				"dataLength": 3,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"sqFtMin": {
-			"type": "string",
-			"required": false,
-			"length": 10,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "sq_ft_min",
-				"dataType": "varchar",
-				"dataLength": 10,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"sqFtMax": {
-			"type": "string",
-			"required": false,
-			"length": 10,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "sq_ft_max",
-				"dataType": "varchar",
-				"dataLength": 10,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"lpDol": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "Lp_dol",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"parkSpcs": {
-			"type": "string",
-			"required": false,
-			"length": 5,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Park_spcs",
-				"dataType": "varchar",
-				"dataLength": 5,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"garType": {
-			"type": "string",
-			"required": false,
-			"length": 16,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Gar_type",
-				"dataType": "varchar",
-				"dataLength": 16,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"pool": {
-			"type": "string",
-			"required": false,
-			"length": 8,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Pool",
-				"dataType": "varchar",
-				"dataLength": 8,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"typeOwn1Out": {
-			"type": "string",
-			"required": false,
-			"length": 18,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Type_own1_out",
-				"dataType": "varchar",
-				"dataLength": 18,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"sR": {
-			"type": "string",
-			"required": false,
-			"length": 9,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "S_r",
-				"dataType": "varchar",
-				"dataLength": 9,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"dispAddr": {
-			"type": "string",
-			"required": false,
-			"length": 1,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Disp_addr",
-				"dataType": "varchar",
-				"dataLength": 1,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"verticalId": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "vertical_id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"unrestricted": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "unrestricted",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"listingsTypeId": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "listings_type_id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"listingsType": {
-			"type": "string",
-			"required": false,
-			"length": 11,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "listings_type",
-				"dataType": "varchar",
-				"dataLength": 11,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"neighbourhoodId": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "neighbourhood_id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"neighbourhood": {
-			"type": "string",
-			"required": false,
-			"length": 100,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "neighbourhood",
-				"dataType": "varchar",
-				"dataLength": 100,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"neighbourhoodSlug": {
-			"type": "string",
-			"required": false,
-			"length": 100,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "neighbourhood_slug",
-				"dataType": "varchar",
-				"dataLength": 100,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"cityId": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "city_id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"city": {
-			"type": "string",
-			"required": false,
-			"length": 100,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "city",
-				"dataType": "varchar",
-				"dataLength": 100,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"cityMunicipalitySlug": {
-			"type": "string",
-			"required": false,
-			"length": 100,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "city_municipality_slug",
-				"dataType": "varchar",
-				"dataLength": 100,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"municipalityId": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "municipality_id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"municipality": {
-			"type": "string",
-			"required": false,
-			"length": 255,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "municipality",
-				"dataType": "varchar",
-				"dataLength": 255,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"provinceId": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "province_id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"province": {
-			"type": "string",
-			"required": false,
-			"length": 20,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "province",
-				"dataType": "varchar",
-				"dataLength": 20,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"isActive": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "is_active",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"featured": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "featured",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"latitude": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 12,
-			"scale": null,
-			"mysql": {
-				"columnName": "latitude",
-				"dataType": "float",
-				"dataLength": null,
-				"dataPrecision": 12,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"longitude": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 12,
-			"scale": null,
-			"mysql": {
-				"columnName": "longitude",
-				"dataType": "float",
-				"dataLength": null,
-				"dataPrecision": 12,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"walkscore": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "walkscore",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"transitscore": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "transitscore",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"bikescore": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "bikescore",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"timestampSql": {
-			"type": "date",
-			"required": false,
-			"length": null,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Timestamp_sql",
-				"dataType": "datetime",
-				"dataLength": null,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"streetview": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "streetview",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		},
-		"imageCount": {
-			"type": "number",
-			"required": false,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"mysql": {
-				"columnName": "image_count",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "Y"
-			}
-		}
-	},
-	"settings": {
-		"strict": false,
-		"replaceOnPUT": true,
-		"idInjection": false,
-		"mysql": {
-			"schema": "moveta",
-			"table": "listings"
-		}
-	}
+  "name": "Listings",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "listings"
+    }
+  },
+  "properties": {
+    "mlNum": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "length": 10,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Ml_num",
+        "dataType": "varchar",
+        "dataLength": 10,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "addr": {
+      "type": "string",
+      "required": false,
+      "length": 35,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Addr",
+        "dataType": "varchar",
+        "dataLength": 35,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "aptNum": {
+      "type": "string",
+      "required": false,
+      "length": 7,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Apt_num",
+        "dataType": "varchar",
+        "dataLength": 7,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "unitNum": {
+      "type": "string",
+      "required": false,
+      "length": 4,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Unit_num",
+        "dataType": "varchar",
+        "dataLength": 4,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "adText": {
+      "type": "string",
+      "required": false,
+      "length": 463,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Ad_text",
+        "dataType": "varchar",
+        "dataLength": 463,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "br": {
+      "type": "string",
+      "required": false,
+      "length": 2,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Br",
+        "dataType": "varchar",
+        "dataLength": 2,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "brPlus": {
+      "type": "string",
+      "required": false,
+      "length": 2,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Br_plus",
+        "dataType": "varchar",
+        "dataLength": 2,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "bathTot": {
+      "type": "string",
+      "required": false,
+      "length": 3,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Bath_tot",
+        "dataType": "varchar",
+        "dataLength": 3,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "sqFtMin": {
+      "type": "string",
+      "required": false,
+      "length": 10,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "sq_ft_min",
+        "dataType": "varchar",
+        "dataLength": 10,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "sqFtMax": {
+      "type": "string",
+      "required": false,
+      "length": 10,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "sq_ft_max",
+        "dataType": "varchar",
+        "dataLength": 10,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "lpDol": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "Lp_dol",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "parkSpcs": {
+      "type": "string",
+      "required": false,
+      "length": 5,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Park_spcs",
+        "dataType": "varchar",
+        "dataLength": 5,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "garType": {
+      "type": "string",
+      "required": false,
+      "length": 16,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Gar_type",
+        "dataType": "varchar",
+        "dataLength": 16,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "pool": {
+      "type": "string",
+      "required": false,
+      "length": 8,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Pool",
+        "dataType": "varchar",
+        "dataLength": 8,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "typeOwn1Out": {
+      "type": "string",
+      "required": false,
+      "length": 18,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Type_own1_out",
+        "dataType": "varchar",
+        "dataLength": 18,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "sR": {
+      "type": "string",
+      "required": false,
+      "length": 9,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "S_r",
+        "dataType": "varchar",
+        "dataLength": 9,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "dispAddr": {
+      "type": "string",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Disp_addr",
+        "dataType": "varchar",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "verticalId": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "vertical_id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "unrestricted": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "unrestricted",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "listingsTypeId": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "listings_type_id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "listingsType": {
+      "type": "string",
+      "required": false,
+      "length": 11,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "listings_type",
+        "dataType": "varchar",
+        "dataLength": 11,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "neighbourhoodId": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "neighbourhood_id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "neighbourhood": {
+      "type": "string",
+      "required": false,
+      "length": 100,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "neighbourhood",
+        "dataType": "varchar",
+        "dataLength": 100,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "neighbourhoodSlug": {
+      "type": "string",
+      "required": false,
+      "length": 100,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "neighbourhood_slug",
+        "dataType": "varchar",
+        "dataLength": 100,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "cityId": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "city_id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "city": {
+      "type": "string",
+      "required": false,
+      "length": 100,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "city",
+        "dataType": "varchar",
+        "dataLength": 100,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "cityMunicipalitySlug": {
+      "type": "string",
+      "required": false,
+      "length": 100,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "city_municipality_slug",
+        "dataType": "varchar",
+        "dataLength": 100,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "municipalityId": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "municipality_id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "municipality": {
+      "type": "string",
+      "required": false,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "municipality",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "provinceId": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "province_id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "province": {
+      "type": "string",
+      "required": false,
+      "length": 20,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "province",
+        "dataType": "varchar",
+        "dataLength": 20,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "isActive": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "is_active",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "featured": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "featured",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "latitude": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 12,
+      "scale": null,
+      "mysql": {
+        "columnName": "latitude",
+        "dataType": "float",
+        "dataLength": null,
+        "dataPrecision": 12,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "longitude": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 12,
+      "scale": null,
+      "mysql": {
+        "columnName": "longitude",
+        "dataType": "float",
+        "dataLength": null,
+        "dataPrecision": 12,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "walkscore": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "walkscore",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "transitscore": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "transitscore",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "bikescore": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "bikescore",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "timestampSql": {
+      "type": "date",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Timestamp_sql",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "streetview": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "streetview",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "imageCount": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "image_count",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    }
+  }
 }

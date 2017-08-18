@@ -1,45 +1,43 @@
 {
-	"name": "TemplateModule",
-	"properties": {
-		"id": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 10,
-			"scale": 0,
-			"id": 1,
-			"mysql": {
-				"columnName": "id",
-				"dataType": "int",
-				"dataLength": null,
-				"dataPrecision": 10,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		},
-		"content": {
-			"type": "string",
-			"required": false,
-			"length": 4294967295,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "content",
-				"dataType": "longtext",
-				"dataLength": 4294967295,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		}
-	},
-	"settings": {
-		"strict": false,
-		"replaceOnPUT": true,
-		"idInjection": false,
-		"mysql": {
-			"schema": "moveta",
-			"table": "template_module"
-		}
-	}
+  "name": "TemplateModule",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "template_module"
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "id": 1,
+      "mysql": {
+        "columnName": "id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "content": {
+      "type": "string",
+      "required": false,
+      "length": 4294967295,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "content",
+        "dataType": "longtext",
+        "dataLength": 4294967295,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    }
+  }
 }
