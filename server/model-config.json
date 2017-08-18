@@ -57,7 +57,7 @@
 	},
 	"CommercialListings": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"CondoProfile": {
 		"dataSource": "sandbox_himanshu",
