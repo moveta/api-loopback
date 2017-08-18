@@ -15,7 +15,6 @@
       "length": 10,
       "precision": null,
       "scale": null,
-      "id": 1,
       "mysql": {
         "columnName": "Ml_num",
         "dataType": "varchar",
