@@ -1,169 +1,163 @@
 {
-	"name": "AdPermission",
-	"properties": {
-		"mlNum": {
-			"type": "string",
-			"required": true,
-			"length": 10,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "Ml_num",
-				"dataType": "varchar",
-				"dataLength": 10,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"agentName": {
-			"type": "string",
-			"required": false,
-			"length": 80,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "agent_name",
-				"dataType": "varchar",
-				"dataLength": 80,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"email": {
-			"type": "string",
-			"required": false,
-			"length": 100,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "email",
-				"dataType": "varchar",
-				"dataLength": 100,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"phone": {
-			"type": "string",
-			"required": false,
-			"length": 15,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "phone",
-				"dataType": "varchar",
-				"dataLength": 15,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"emailSent": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 3,
-			"scale": 0,
-			"mysql": {
-				"columnName": "email_sent",
-				"dataType": "tinyint",
-				"dataLength": null,
-				"dataPrecision": 3,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		},
-		"permission": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 3,
-			"scale": 0,
-			"mysql": {
-				"columnName": "permission",
-				"dataType": "tinyint",
-				"dataLength": null,
-				"dataPrecision": 3,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		},
-		"craigslist": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 3,
-			"scale": 0,
-			"mysql": {
-				"columnName": "craigslist",
-				"dataType": "tinyint",
-				"dataLength": null,
-				"dataPrecision": 3,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		},
-		"kijiji": {
-			"type": "number",
-			"required": true,
-			"length": null,
-			"precision": 3,
-			"scale": 0,
-			"mysql": {
-				"columnName": "kijiji",
-				"dataType": "tinyint",
-				"dataLength": null,
-				"dataPrecision": 3,
-				"dataScale": 0,
-				"nullable": "N"
-			}
-		},
-		"createdAt": {
-			"type": "date",
-			"required": true,
-			"length": null,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "created_at",
-				"dataType": "datetime",
-				"dataLength": null,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "N"
-			}
-		},
-		"updatedAt": {
-			"type": "date",
-			"required": false,
-			"length": null,
-			"precision": null,
-			"scale": null,
-			"mysql": {
-				"columnName": "updated_at",
-				"dataType": "datetime",
-				"dataLength": null,
-				"dataPrecision": null,
-				"dataScale": null,
-				"nullable": "Y"
-			}
-		},
-		"id": {
-			"type": "number",
-			"id": 1,
-			"generated": true
-		}
-	},
-	"settings": {
-		"strict": false,
-		"replaceOnPUT": true,
-		"idInjection": false,
-		"mysql": {
-			"schema": "moveta",
-			"table": "ad_permission"
-		}
-	}
+  "name": "AdPermission",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "ad_permission"
+    }
+  },
+  "properties": {
+    "mlNum": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "length": 10,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "Ml_num",
+        "dataType": "varchar",
+        "dataLength": 10,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "agentName": {
+      "type": "string",
+      "required": false,
+      "length": 80,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "agent_name",
+        "dataType": "varchar",
+        "dataLength": 80,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "email": {
+      "type": "string",
+      "required": false,
+      "length": 100,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "email",
+        "dataType": "varchar",
+        "dataLength": 100,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "required": false,
+      "length": 15,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "phone",
+        "dataType": "varchar",
+        "dataLength": 15,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "emailSent": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 3,
+      "scale": 0,
+      "mysql": {
+        "columnName": "email_sent",
+        "dataType": "tinyint",
+        "dataLength": null,
+        "dataPrecision": 3,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "permission": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 3,
+      "scale": 0,
+      "mysql": {
+        "columnName": "permission",
+        "dataType": "tinyint",
+        "dataLength": null,
+        "dataPrecision": 3,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "craigslist": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 3,
+      "scale": 0,
+      "mysql": {
+        "columnName": "craigslist",
+        "dataType": "tinyint",
+        "dataLength": null,
+        "dataPrecision": 3,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "kijiji": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 3,
+      "scale": 0,
+      "mysql": {
+        "columnName": "kijiji",
+        "dataType": "tinyint",
+        "dataLength": null,
+        "dataPrecision": 3,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "createdAt": {
+      "type": "date",
+      "required": true,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "created_at",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "updatedAt": {
+      "type": "date",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "updated_at",
+        "dataType": "datetime",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    }
+  }
 }
