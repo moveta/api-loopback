@@ -14,8 +14,7 @@
 		]
 	},
 	"User": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "db"
 	},
 	"AccessToken": {
 		"dataSource": "db",
@@ -37,255 +36,255 @@
 		"public": false
 	},
 	"AdPermission": {
-		"dataSource": "staging",
-		"public": false
-	},
+      "dataSource": "sandbox_himanshu",
+      "public": true
+    },
 	"Agents": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"AgentsAssignment": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"City": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"CityMunicipality": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"CommercialListings": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"CondoProfile": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"CondosCaCity": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"CondosCaMunicipality": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"CondosCaNeighbourhood": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"CondosCaNeighbourhoodWeb": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"DemographicAge": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicChildren": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicConstruction": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicEducation": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicEmployment": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicGender": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicGeneral": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicIncome": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicMaritalstatus": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicMothertongue": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicNeighbourhood": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicOwnership": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicReligion": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicWorklocation": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"DemographicWorktransportation": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"Demographics": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"Division": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"Favorites": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"Leads": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"LeadsNotes": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"LeadsType": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"Listings": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": true
 	},
 	"ListingsType": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"Municipality": {
-		"dataSource": "staging",
+		"dataSource": "sandbox_himanshu",
 		"public": false
 	},
 	"Neighbourhood": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"NeighbourhoodProfile": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"PriceRange": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"PropertyListings": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"PropertyType": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"Province": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"Schools": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"Stats": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"Template": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"TemplateCriteria": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"TemplateModule": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"TemplateType": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"UnlistedListings": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"UserHistory": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"UserHistoryType": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"Vertical": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"WpCommentmeta": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"WpComments": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"WpLinks": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"WpOptions": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"WpPostmeta": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"WpPosts": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"WpTermRelationships": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"WpTermTaxonomy": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"WpTermmeta": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"WpTerms": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"WpUsermeta": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	},
 	"WpUsers": {
-		"dataSource": "staging",
-		"public": false
+		"dataSource": "sandbox_himanshu",
+		"public": true
 	}
 }

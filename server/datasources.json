@@ -3,13 +3,13 @@
     "name": "db",
     "connector": "memory"
   },
-  "staging": {
-    "host": "moveta-vpc-staging01-cluster.cluster-catyho1yk2mi.us-east-1.rds.amazonaws.com",
+  "sandbox_himanshu": {
+    "host": "moveta-vpc-staging01.catyho1yk2mi.us-east-1.rds.amazonaws.com",
     "port": 3306,
     "url": "",
-    "database": "moveta",
+    "database": "sandbox_himanshu",
     "password": "rBEpskFLyMmcSlR2U5eE730",
-    "name": "staging",
+    "name": "sandbox_himanshu",
     "user": "staging",
     "connector": "mysql"
   }
