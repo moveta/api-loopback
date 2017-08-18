@@ -36,16 +36,16 @@
 		"public": false
 	},
 	"AdPermission": {
+      "dataSource": "sandbox_himanshu",
+      "public": true
+    },
+	"Agents": {
 		"dataSource": "sandbox_himanshu",
 		"public": true
 	},
-	"Agents": {
-		"dataSource": "sandbox_himanshu",
-		"public": false
-	},
 	"AgentsAssignment": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"City": {
 		"dataSource": "sandbox_himanshu",
@@ -53,7 +53,7 @@
 	},
 	"CityMunicipality": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"CommercialListings": {
 		"dataSource": "sandbox_himanshu",
@@ -61,7 +61,7 @@
 	},
 	"CondoProfile": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"CondosCaCity": {
 		"dataSource": "sandbox_himanshu",
@@ -81,95 +81,95 @@
 	},
 	"DemographicAge": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicChildren": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicConstruction": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicEducation": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicEmployment": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicGender": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicGeneral": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicIncome": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicMaritalstatus": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicMothertongue": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicNeighbourhood": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicOwnership": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicReligion": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicWorklocation": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"DemographicWorktransportation": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"Demographics": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"Division": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"Favorites": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"Leads": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"LeadsNotes": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"LeadsType": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"Listings": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"ListingsType": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"Municipality": {
 		"dataSource": "sandbox_himanshu",
@@ -177,114 +177,114 @@
 	},
 	"Neighbourhood": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"NeighbourhoodProfile": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"PriceRange": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"PropertyListings": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"PropertyType": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"Province": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"Schools": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"Stats": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"Template": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"TemplateCriteria": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"TemplateModule": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"TemplateType": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"UnlistedListings": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"UserHistory": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"UserHistoryType": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"Vertical": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"WpCommentmeta": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"WpComments": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"WpLinks": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"WpOptions": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"WpPostmeta": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"WpPosts": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"WpTermRelationships": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"WpTermTaxonomy": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"WpTermmeta": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"WpTerms": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"WpUsermeta": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	},
 	"WpUsers": {
 		"dataSource": "sandbox_himanshu",
-		"public": false
+		"public": true
 	}
 }
