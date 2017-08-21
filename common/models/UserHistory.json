@@ -87,7 +87,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "usersHistory": {
+      "type": "belongsTo",
+      "model": "Users",
+      "foreignKey": "userId"
+    },
+    "usersHistoryType": {
+      "type": "belongsTo",
+      "model": "UserHistoryType",
+      "foreignKey": "userHistoryTypeId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

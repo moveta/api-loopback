@@ -267,7 +267,23 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "neighbourhoodListings": {
+      "type": "hasMany",
+      "model": "Listings",
+      "foreignKey": "mlNum"
+    },
+    "neighbourhoodCities": {
+      "type": "belongsTo",
+      "model": "CityMunicipality",
+      "foreignKey": "cityId"
+    },
+    "neighbourhoodProvinces": {
+      "type": "belongsTo",
+      "model": "Province",
+      "foreignKey": "provinceId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

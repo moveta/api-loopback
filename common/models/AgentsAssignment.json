@@ -57,7 +57,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "agentsAssignment": {
+      "type": "belongsTo",
+      "model": "Leads",
+      "foreignKey": "leadsId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

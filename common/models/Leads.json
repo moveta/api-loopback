@@ -102,7 +102,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "leadsType": {
+      "type": "belongsTo",
+      "model": "LeadsType",
+      "foreignKey": "leadsTypeId"
+    },
+    "users": {
+      "type": "belongsTo",
+      "model": "Users",
+      "foreignKey": "userId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

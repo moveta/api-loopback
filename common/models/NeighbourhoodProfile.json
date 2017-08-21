@@ -117,7 +117,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "neighbourhoodProfile": {
+      "type": "belongsTo",
+      "model": "Neighbourhood",
+      "foreignKey": "neighbourhoodId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -627,7 +627,38 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "propertyListings": {
+      "type": "belongsTo",
+      "model": "PropertyListings",
+      "foreignKey": "mlNum"
+    },
+    "commercialListings": {
+      "type": "belongsTo",
+      "model": "CommercialListings",
+      "foreignKey": "mlNum"
+    },
+    "listingType": {
+      "type": "belongsTo",
+      "model": "ListingsType",
+      "foreignKey": "listingsTypeId"
+    },
+    "neighbourhoods": {
+      "type": "belongsTo",
+      "model": "Neighbourhood",
+      "foreignKey": "neighbourhoodId"
+    },
+    "cities": {
+      "type": "belongsTo",
+      "model": "CityMunicipality",
+      "foreignKey": "cityId"
+    },
+    "verticals": {
+      "type": "belongsTo",
+      "model": "Vertical",
+      "foreignKey": "verticalId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -267,7 +267,23 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "condosNeighbourhood": {
+      "type": "belongsTo",
+      "model": "Neighbourhood",
+      "foreignKey": "neighbourhoodId"
+    },
+    "condosCity": {
+      "type": "belongsTo",
+      "model": "CityMunicipality",
+      "foreignKey": "cityId"
+    },
+    "condosProvince": {
+      "type": "belongsTo",
+      "model": "Province",
+      "foreignKey": "provinceId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
