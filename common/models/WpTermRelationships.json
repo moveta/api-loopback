@@ -1,5 +1,6 @@
 {
   "name": "WpTermRelationships",
+  "base": "PersistedModel",
   "idInjection": false,
   "options": {
     "validateUpsert": true,
@@ -26,11 +27,11 @@
     },
     "termTaxonomyId": {
       "type": "number",
+      "id": 2,
       "required": true,
       "length": null,
       "precision": 20,
       "scale": 0,
-      "id": 2,
       "mysql": {
         "columnName": "term_taxonomy_id",
         "dataType": "bigint",
@@ -55,5 +56,9 @@
         "nullable": "N"
       }
     }
-  }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
 }
