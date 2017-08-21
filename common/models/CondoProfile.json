@@ -1,5 +1,6 @@
 {
   "name": "CondoProfile",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true,
@@ -10,11 +11,11 @@
   "properties": {
     "id": {
       "type": "number",
+      "id": 1,
       "required": true,
       "length": null,
       "precision": 10,
       "scale": 0,
-      "id": 1,
       "mysql": {
         "columnName": "id",
         "dataType": "int",
@@ -264,5 +265,25 @@
         "nullable": "Y"
       }
     }
-  }
+  },
+  "validations": [],
+  "relations": {
+    "condosNeighbourhood": {
+      "type": "belongsTo",
+      "model": "Neighbourhood",
+      "foreignKey": "neighbourhoodId"
+    },
+    "condosCity": {
+      "type": "belongsTo",
+      "model": "CityMunicipality",
+      "foreignKey": "cityId"
+    },
+    "condosProvince": {
+      "type": "belongsTo",
+      "model": "Province",
+      "foreignKey": "provinceId"
+    }
+  },
+  "acls": [],
+  "methods": {}
 }

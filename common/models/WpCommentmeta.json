@@ -1,5 +1,6 @@
 {
   "name": "WpCommentmeta",
+  "base": "PersistedModel",
   "idInjection": false,
   "options": {
     "validateUpsert": true,
@@ -69,5 +70,9 @@
         "nullable": "Y"
       }
     }
-  }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
 }

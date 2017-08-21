@@ -1,5 +1,6 @@
 {
   "name": "WpTermTaxonomy",
+  "base": "PersistedModel",
   "idInjection": false,
   "options": {
     "validateUpsert": true,
@@ -99,5 +100,9 @@
         "nullable": "N"
       }
     }
-  }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
 }
