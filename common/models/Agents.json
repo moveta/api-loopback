@@ -92,6 +92,11 @@
       "type": "belongsTo",
       "model": "Users",
       "foreignKey": "user_id"
+    },
+    "assignment": {
+      "type": "hasMany",
+      "model": "AgentsAssignment",
+      "foreignKey": "agentsId"
     }
   },
   "acls": [],
