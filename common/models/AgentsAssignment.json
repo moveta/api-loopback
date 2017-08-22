@@ -58,7 +58,7 @@
   },
   "validations": [],
   "relations": {
-    "agentsAssignment": {
+    "agentsDetail": {
       "type": "hasOne",
       "model": "Agents",
       "foreignKey": "id"
