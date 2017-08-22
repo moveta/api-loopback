@@ -42,7 +42,14 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "templateCriterias": {
+      "type": "hasMany",
+      "model": "TemplateCriteria",
+      "foreignKey": "templateModuleId",
+      "through": "Template"
+    }
+  },
   "acls": [],
   "methods": {}
 }

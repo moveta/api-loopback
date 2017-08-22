@@ -72,7 +72,23 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "templateModule": {
+      "type": "belongsTo",
+      "model": "TemplateModule",
+      "foreignKey": "templateModuleId"
+    },
+    "templateCriteria": {
+      "type": "belongsTo",
+      "model": "TemplateCriteria",
+      "foreignKey": "templateCriteriaId"
+    },
+    "templateType": {
+      "type": "belongsTo",
+      "model": "TemplateType",
+      "foreignKey": "templateTypeId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
