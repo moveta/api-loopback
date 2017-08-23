@@ -112,6 +112,11 @@
       "type": "belongsTo",
       "model": "Users",
       "foreignKey": "userId"
+    },
+    "leadsAgent": {
+      "type": "hasOne",
+      "model": "AgentsAssignment",
+      "foreignKey": "leadsId"
     }
   },
   "acls": [],

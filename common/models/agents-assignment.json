@@ -58,10 +58,10 @@
   },
   "validations": [],
   "relations": {
-    "agentsAssignment": {
-      "type": "belongsTo",
-      "model": "Leads",
-      "foreignKey": "leadsId"
+    "agentsDetail": {
+      "type": "hasOne",
+      "model": "Agents",
+      "foreignKey": "id"
     }
   },
   "acls": [],

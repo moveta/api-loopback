@@ -372,7 +372,14 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "templateModules": {
+      "type": "hasMany",
+      "model": "TemplateModule",
+      "foreignKey": "templateCriteriaId",
+      "through": "Template"
+    }
+  },
   "acls": [],
   "methods": {}
 }
