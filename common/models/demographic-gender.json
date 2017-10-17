@@ -72,7 +72,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "neighbourhoods": {
+      "type": "belongsTo",
+      "model": "Neighbourhood",
+      "foreignKey": "neighbourhoodId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

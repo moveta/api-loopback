@@ -59,9 +59,9 @@
   "validations": [],
   "relations": {
     "agentsDetail": {
-      "type": "hasOne",
+      "type": "belongsTo",
       "model": "Agents",
-      "foreignKey": "id"
+      "foreignKey": "agentsId"
     }
   },
   "acls": [],

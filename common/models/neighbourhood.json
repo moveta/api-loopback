@@ -268,15 +268,105 @@
   },
   "validations": [],
   "relations": {
+    "condoProfile": {
+      "type": "hasMany",
+      "model": "CondoProfile",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicAge": {
+      "type": "hasMany",
+      "model": "DemographicAge",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicChildren": {
+      "type": "hasMany",
+      "model": "DemographicChildren",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicConstruction": {
+      "type": "hasMany",
+      "model": "DemographicConstruction",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicEducation": {
+      "type": "hasMany",
+      "model": "DemographicEducation",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicEmployment": {
+      "type": "hasMany",
+      "model": "DemographicEmployment",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicGender": {
+      "type": "hasMany",
+      "model": "DemographicGender",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicGeneral": {
+      "type": "hasMany",
+      "model": "DemographicGeneral",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicIncome": {
+      "type": "hasMany",
+      "model": "DemographicIncome",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicMaritalstatus": {
+      "type": "hasMany",
+      "model": "DemographicMaritalstatus",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicMothertongue": {
+      "type": "hasMany",
+      "model": "DemographicMothertongue",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicNeighbourhood": {
+      "type": "hasMany",
+      "model": "DemographicNeighbourhood",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicOwnership": {
+      "type": "hasMany",
+      "model": "DemographicOwnership",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicReligion": {
+      "type": "hasMany",
+      "model": "DemographicReligion",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicWorklocation": {
+      "type": "hasMany",
+      "model": "DemographicWorklocation",
+      "foreignKey": "neighbourhoodId"
+    },
+    "demographicWorktransportation": {
+      "type": "hasMany",
+      "model": "DemographicWorktransportation",
+      "foreignKey": "neighbourhoodId"
+    },
+    "neighbourhoodProfile": {
+      "type": "hasMany",
+      "model": "NeighbourhoodProfile",
+      "foreignKey": "neighbourhoodId"
+    },
     "neighbourhoodListings": {
       "type": "hasMany",
       "model": "Listings",
-      "foreignKey": "mlNum"
+      "foreignKey": "neighbourhoodId"
     },
     "neighbourhoodCities": {
       "type": "belongsTo",
       "model": "CityMunicipality",
       "foreignKey": "cityId"
+    },
+    "neighbourhoodMunicipalities": {
+      "type": "belongsTo",
+      "model": "Municipality",
+      "foreignKey": "municipalityId"
     },
     "neighbourhoodProvinces": {
       "type": "belongsTo",

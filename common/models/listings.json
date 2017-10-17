@@ -628,14 +628,14 @@
   },
   "validations": [],
   "relations": {
+    "favorites": {
+      "type": "hasMany",
+      "model": "Favorites",
+      "foreignKey": "mlNum"
+    },
     "propertyListings": {
       "type": "belongsTo",
       "model": "PropertyListings",
-      "foreignKey": "mlNum"
-    },
-    "commercialListings": {
-      "type": "belongsTo",
-      "model": "CommercialListings",
       "foreignKey": "mlNum"
     },
     "listingType": {
@@ -652,6 +652,16 @@
       "type": "belongsTo",
       "model": "CityMunicipality",
       "foreignKey": "cityId"
+    },
+    "municipalities": {
+      "type": "belongsTo",
+      "model": "Municipality",
+      "foreignKey": "municipalityId"
+    },
+    "provinces": {
+      "type": "belongsTo",
+      "model": "Province",
+      "foreignKey": "provinceId"
     },
     "verticals": {
       "type": "belongsTo",
