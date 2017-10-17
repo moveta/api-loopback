@@ -132,7 +132,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "Municipality": {
+      "type": "belongsTo",
+      "model": "Municipality",
+      "foreignKey": "municipalityId"
+    },
+    "Province": {
+      "type": "belongsTo",
+      "model": "Province",
+      "foreignKey": "provinceId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

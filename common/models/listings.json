@@ -628,6 +628,11 @@
   },
   "validations": [],
   "relations": {
+    "Favorites": {
+      "type": "hasMany",
+      "model": "Favorites",
+      "foreignKey": "mlNum"
+    },
     "propertyListings": {
       "type": "belongsTo",
       "model": "PropertyListings",

@@ -57,7 +57,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "CondoProfile": {
+      "type": "hasMany",
+      "model": "CondoProfile",
+      "foreignKey": "provinceId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

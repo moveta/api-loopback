@@ -25,7 +25,7 @@
         "nullable": "N"
       }
     },
-    "userId": {
+    "usersId": {
       "type": "number",
       "required": true,
       "length": null,
@@ -91,7 +91,7 @@
     "userId": {
       "type": "belongsTo",
       "model": "Users",
-      "foreignKey": "user_id"
+      "foreignKey": "usersId"
     },
     "assignment": {
       "type": "hasMany",

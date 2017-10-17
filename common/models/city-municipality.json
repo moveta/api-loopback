@@ -226,7 +226,12 @@
     "cityListings": {
       "type": "hasMany",
       "model": "Listings",
-      "foreignKey": "mlNum"
+      "foreignKey": "cityId"
+    },
+    "CondoProfile": {
+      "type": "hasMany",
+      "model": "CondoProfile",
+      "foreignKey": "cityId"
     },
     "cityProvinces": {
       "type": "belongsTo",

@@ -177,7 +177,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "Favorites": {
+      "type": "hasMany",
+      "model": "Favorites",
+      "foreignKey": "userId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
