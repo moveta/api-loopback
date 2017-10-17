@@ -42,7 +42,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "LeadsType": {
+      "type": "hasMany",
+      "model": "Leads",
+      "foreignKey": "leadsTypeId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

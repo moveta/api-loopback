@@ -87,7 +87,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "Leads": {
+      "type": "belongsTo",
+      "model": "Leads",
+      "foreignKey": "leadsId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

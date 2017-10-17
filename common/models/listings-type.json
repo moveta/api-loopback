@@ -42,7 +42,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "Listings": {
+      "type": "hasMany",
+      "model": "Listings",
+      "foreignKey": "listingsTypeId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -268,7 +268,7 @@
   },
   "validations": [],
   "relations": {
-    "CondoProfile": {
+    "condoProfile": {
       "type": "hasMany",
       "model": "CondoProfile",
       "foreignKey": "neighbourhoodId"
@@ -282,7 +282,8 @@
       "type": "hasMany",
       "model": "DemographicChildren",
       "foreignKey": "neighbourhoodId"
-    },"demographicConstruction": {
+    },
+    "demographicConstruction": {
       "type": "hasMany",
       "model": "DemographicConstruction",
       "foreignKey": "neighbourhoodId"
@@ -291,7 +292,8 @@
       "type": "hasMany",
       "model": "DemographicEducation",
       "foreignKey": "neighbourhoodId"
-    },"demographicEmployment": {
+    },
+    "demographicEmployment": {
       "type": "hasMany",
       "model": "DemographicEmployment",
       "foreignKey": "neighbourhoodId"
@@ -300,7 +302,8 @@
       "type": "hasMany",
       "model": "DemographicGender",
       "foreignKey": "neighbourhoodId"
-    },"demographicGeneral": {
+    },
+    "demographicGeneral": {
       "type": "hasMany",
       "model": "DemographicGeneral",
       "foreignKey": "neighbourhoodId"
@@ -309,7 +312,8 @@
       "type": "hasMany",
       "model": "DemographicIncome",
       "foreignKey": "neighbourhoodId"
-    },"demographicMaritalstatus": {
+    },
+    "demographicMaritalstatus": {
       "type": "hasMany",
       "model": "DemographicMaritalstatus",
       "foreignKey": "neighbourhoodId"
@@ -318,7 +322,8 @@
       "type": "hasMany",
       "model": "DemographicMothertongue",
       "foreignKey": "neighbourhoodId"
-    },"demographicNeighbourhood": {
+    },
+    "demographicNeighbourhood": {
       "type": "hasMany",
       "model": "DemographicNeighbourhood",
       "foreignKey": "neighbourhoodId"
@@ -327,7 +332,8 @@
       "type": "hasMany",
       "model": "DemographicOwnership",
       "foreignKey": "neighbourhoodId"
-    },"demographicReligion": {
+    },
+    "demographicReligion": {
       "type": "hasMany",
       "model": "DemographicReligion",
       "foreignKey": "neighbourhoodId"
@@ -336,20 +342,31 @@
       "type": "hasMany",
       "model": "DemographicWorklocation",
       "foreignKey": "neighbourhoodId"
-    },"demographicWorktransportation": {
+    },
+    "demographicWorktransportation": {
       "type": "hasMany",
       "model": "DemographicWorktransportation",
+      "foreignKey": "neighbourhoodId"
+    },
+    "neighbourhoodProfile": {
+      "type": "hasMany",
+      "model": "NeighbourhoodProfile",
       "foreignKey": "neighbourhoodId"
     },
     "neighbourhoodListings": {
       "type": "hasMany",
       "model": "Listings",
-      "foreignKey": "mlNum"
+      "foreignKey": "neighbourhoodId"
     },
     "neighbourhoodCities": {
       "type": "belongsTo",
       "model": "CityMunicipality",
       "foreignKey": "cityId"
+    },
+    "neighbourhoodMunicipalities": {
+      "type": "belongsTo",
+      "model": "Municipality",
+      "foreignKey": "municipalityId"
     },
     "neighbourhoodProvinces": {
       "type": "belongsTo",
