@@ -49,10 +49,6 @@
   },
   "City": {
     "dataSource": "sandbox_himanshu",
-    "public": false
-  },
-  "CityMunicipality": {
-    "dataSource": "sandbox_himanshu",
     "public": true
   },
   "CommercialListings": {
@@ -62,22 +58,6 @@
   "CondoProfile": {
     "dataSource": "sandbox_himanshu",
     "public": true
-  },
-  "CondosCaCity": {
-    "dataSource": "sandbox_himanshu",
-    "public": false
-  },
-  "CondosCaMunicipality": {
-    "dataSource": "sandbox_himanshu",
-    "public": false
-  },
-  "CondosCaNeighbourhood": {
-    "dataSource": "sandbox_himanshu",
-    "public": false
-  },
-  "CondosCaNeighbourhoodWeb": {
-    "dataSource": "sandbox_himanshu",
-    "public": false
   },
   "DemographicAge": {
     "dataSource": "sandbox_himanshu",
@@ -143,10 +123,6 @@
     "dataSource": "sandbox_himanshu",
     "public": true
   },
-  "Division": {
-    "dataSource": "sandbox_himanshu",
-    "public": true
-  },
   "Favorites": {
     "dataSource": "sandbox_himanshu",
     "public": true
@@ -180,10 +156,6 @@
     "public": true
   },
   "NeighbourhoodProfile": {
-    "dataSource": "sandbox_himanshu",
-    "public": true
-  },
-  "PriceRange": {
     "dataSource": "sandbox_himanshu",
     "public": true
   },

@@ -5,19 +5,19 @@
   "options": {
     "validateUpsert": true,
     "mysql": {
-      "table": "municipality"
+      "table": "city_municipality"
     }
   },
   "properties": {
     "id": {
       "type": "number",
-      "id": 1,
+      "id": true,
       "required": true,
       "length": null,
       "precision": 10,
       "scale": 0,
       "mysql": {
-        "columnName": "id",
+        "columnName": "municipality_id",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,
@@ -32,11 +32,41 @@
       "precision": null,
       "scale": null,
       "mysql": {
-        "columnName": "name",
+        "columnName": "municipality_name",
         "dataType": "varchar",
         "dataLength": 255,
         "dataPrecision": null,
         "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "alias": {
+      "type": "string",
+      "required": false,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "municipality_alias",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "provinceId": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "province_id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
         "nullable": "N"
       }
     },
@@ -55,24 +85,9 @@
         "nullable": "N"
       }
     },
-    "provinceId": {
-      "type": "number",
-      "required": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "province_id",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "N"
-      }
-    },
     "code": {
       "type": "string",
-      "required": true,
+      "required": false,
       "length": 20,
       "precision": null,
       "scale": null,
@@ -82,7 +97,7 @@
         "dataLength": 20,
         "dataPrecision": null,
         "dataScale": null,
-        "nullable": "N"
+        "nullable": "Y"
       }
     },
     "latitude": {
@@ -92,7 +107,7 @@
       "precision": 12,
       "scale": null,
       "mysql": {
-        "columnName": "latitude",
+        "columnName": "municipality_latitude",
         "dataType": "float",
         "dataLength": null,
         "dataPrecision": 12,
@@ -107,7 +122,7 @@
       "precision": 12,
       "scale": null,
       "mysql": {
-        "columnName": "longitude",
+        "columnName": "municipality_longitude",
         "dataType": "float",
         "dataLength": null,
         "dataPrecision": 12,
@@ -117,7 +132,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "municipalityListings": {
+      "type": "hasMany",
+      "model": "Listings",
+      "foreignKey": "municipalityId"
+    },
+    "municipalityProvinces": {
+      "type": "belongsTo",
+      "model": "Province",
+      "foreignKey": "provinceId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
