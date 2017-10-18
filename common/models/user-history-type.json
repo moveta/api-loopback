@@ -42,7 +42,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "usersHistory": {
+      "type": "hasMany",
+      "model": "UserHistory",
+      "foreignKey": "userHistoryTypeId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
