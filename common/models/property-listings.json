@@ -3912,7 +3912,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "listings": {
+      "type": "hasOne",
+      "model": "Listings",
+      "foreignKey": "mlNum"
+    }
+  },
   "acls": [],
   "methods": {}
 }

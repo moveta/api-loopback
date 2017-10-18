@@ -275,7 +275,7 @@
     },
     "condosCity": {
       "type": "belongsTo",
-      "model": "CityMunicipality",
+      "model": "City",
       "foreignKey": "cityId"
     },
     "condosProvince": {
