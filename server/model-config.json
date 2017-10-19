@@ -153,7 +153,7 @@
   },
   "Municipality": {
     "dataSource": "sandbox_himanshu",
-    "public": false
+    "public": true
   },
   "Neighbourhood": {
     "dataSource": "sandbox_himanshu",
