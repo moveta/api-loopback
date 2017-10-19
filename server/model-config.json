@@ -103,10 +103,6 @@
     "dataSource": "sandbox_himanshu",
     "public": true
   },
-  "DemographicNeighbourhood": {
-    "dataSource": "sandbox_himanshu",
-    "public": true
-  },
   "DemographicOwnership": {
     "dataSource": "sandbox_himanshu",
     "public": true
