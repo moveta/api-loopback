@@ -39,6 +39,10 @@
     "dataSource": "sandbox_himanshu",
     "public": true
   },
+  "AdPermissionAreas": {
+    "dataSource": "sandbox_himanshu",
+    "public": true
+  },
   "Agents": {
     "dataSource": "sandbox_himanshu",
     "public": true
@@ -99,10 +103,6 @@
     "dataSource": "sandbox_himanshu",
     "public": true
   },
-  "DemographicNeighbourhood": {
-    "dataSource": "sandbox_himanshu",
-    "public": true
-  },
   "DemographicOwnership": {
     "dataSource": "sandbox_himanshu",
     "public": true
@@ -120,6 +120,10 @@
     "public": true
   },
   "Demographics": {
+    "dataSource": "sandbox_himanshu",
+    "public": true
+  },
+  "Division": {
     "dataSource": "sandbox_himanshu",
     "public": true
   },
