@@ -123,6 +123,10 @@
     "dataSource": "sandbox_himanshu",
     "public": true
   },
+  "Division": {
+    "dataSource": "sandbox_himanshu",
+    "public": true
+  },
   "Favorites": {
     "dataSource": "sandbox_himanshu",
     "public": true
