@@ -168,7 +168,7 @@
       "model": "Listings",
       "foreignKey": "cityId"
     },
-    "CondoProfile": {
+    "condoProfile": {
       "type": "hasMany",
       "model": "CondoProfile",
       "foreignKey": "cityId"

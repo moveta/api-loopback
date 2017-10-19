@@ -39,6 +39,10 @@
     "dataSource": "sandbox_himanshu",
     "public": true
   },
+  "AdPermissionAreas": {
+    "dataSource": "sandbox_himanshu",
+    "public": true
+  },
   "Agents": {
     "dataSource": "sandbox_himanshu",
     "public": true

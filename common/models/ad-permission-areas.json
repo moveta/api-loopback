@@ -84,51 +84,51 @@
         "dataScale": 0,
         "nullable": "N"
       }
-    }
-  },
-  "neighbourhood": {
-    "type": "string",
-    "required": true,
-    "length": 255,
-    "precision": null,
-    "scale": null,
-    "mysql": {
-      "columnName": "neighbourhood",
-      "dataType": "varchar",
-      "dataLength": 255,
-      "dataPrecision": null,
-      "dataScale": null,
-      "nullable": "N"
-    }
-  },
-  "neighbourhoodId": {
-    "type": "number",
-    "required": true,
-    "length": null,
-    "precision": 10,
-    "scale": 0,
-    "mysql": {
-      "columnName": "neighbourhood_id",
-      "dataType": "int",
-      "dataLength": null,
-      "dataPrecision": 10,
-      "dataScale": 0,
-      "nullable": "N"
-    }
-  },
-  "status": {
-    "type": "number",
-    "required": true,
-    "length": null,
-    "precision": 10,
-    "scale": 0,
-    "mysql": {
-      "columnName": "status",
-      "dataType": "int",
-      "dataLength": null,
-      "dataPrecision": 10,
-      "dataScale": 0,
-      "nullable": "N"
+    },
+    "neighbourhood": {
+      "type": "string",
+      "required": true,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "neighbourhood",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "neighbourhoodId": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "neighbourhood_id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "status": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "status",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      }
     }
   },
   "validations": [],
