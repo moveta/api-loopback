@@ -266,5 +266,9 @@
   "WpUsers": {
     "dataSource": "sandbox_himanshu",
     "public": true
+  },
+  "Email": {
+    "dataSource": "Email",
+    "public": true
   }
 }

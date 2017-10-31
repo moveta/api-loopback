@@ -12,5 +12,24 @@
     "name": "sandbox_himanshu",
     "user": "staging",
     "connector": "mysql"
+  },
+  "Email": {
+    "name": "mail",
+    "connector": "mail",
+    "transports": [{
+      "type": "SMTP",
+      "host": "smtp.gmail.com",
+      "secure": true,
+      "port": 465,
+      "auth": {
+        "user": "support@moveta.com",
+        "pass": "aEpBUVk59WsT*6m5"
+      }
+    }]
+  },
+  "sendgrid": {
+    "name": "sendgrid",
+    "connector": "loopback-connector-sendgrid",
+    "api_key": "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"
   }
 }
