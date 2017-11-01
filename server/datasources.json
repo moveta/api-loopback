@@ -26,10 +26,5 @@
         "pass": "aEpBUVk59WsT*6m5"
       }
     }]
-  },
-  "sendgrid": {
-    "name": "sendgrid",
-    "connector": "loopback-connector-sendgrid",
-    "api_key": "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"
   }
 }
