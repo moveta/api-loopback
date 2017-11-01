@@ -2,7 +2,6 @@
 
 module.exports = function(Listings) {
   Listings.findFilteredListingCount = function(filterData, cb) {
-
     var address = (filterData[0].address) ? filterData[0].address : '';
     var unit = (filterData[0].unit) ? filterData[0].unit : '';
     var neighbourhood = (filterData[0].neighbourhoodSlug) ? filterData[0].neighbourhoodSlug : '';
@@ -23,7 +22,6 @@ module.exports = function(Listings) {
   });
 
   Listings.findFilteredListing = function(filterData, cb) {
-
     var address = (filterData[0].address) ? filterData[0].address : '';
     var unit = (filterData[0].unit) ? filterData[0].unit : '';
     var neighbourhood = (filterData[0].neighbourhoodSlug) ? filterData[0].neighbourhoodSlug : '';
@@ -37,7 +35,7 @@ module.exports = function(Listings) {
         listingsTypeId: {neq: 2},
       },
     }, function(err, listings) {
-      cb(null, Object.assign({}, JSON.parse(JSON.stringify((listings))), {
+      cb(null, JSON.parse(JSON.stringify((listings)), {
       }));
     });
   },
