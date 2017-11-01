@@ -153,7 +153,7 @@
   },
   "Municipality": {
     "dataSource": "sandbox_himanshu",
-    "public": false
+    "public": true
   },
   "Neighbourhood": {
     "dataSource": "sandbox_himanshu",
@@ -265,6 +265,10 @@
   },
   "WpUsers": {
     "dataSource": "sandbox_himanshu",
+    "public": true
+  },
+  "Email": {
+    "dataSource": "Email",
     "public": true
   }
 }
