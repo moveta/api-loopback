@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function(Listings) {
-  Listings.findFilteredListingCount = function(filterData, cb) {
+  Listings.findListingByAddressCount = function(filterData, cb) {
     filterData[0]['addr'] = filterData[0].address;
     if (filterData[0].unit) {
       filterData[0]['aptNum'] = filterData[0].unit;
@@ -13,12 +13,12 @@ module.exports = function(Listings) {
       cb(null, count);
     });
   },
-  Listings.remoteMethod('findFilteredListingCount', {
+  Listings.remoteMethod('findListingByAddressCount', {
     accepts: {arg: 'filterData', type: 'array'},
     returns: {arg: 'totalItems', type: Listings},
   });
 
-  Listings.findFilteredListing = function(filterData, cb) {
+  Listings.findListingByAddress = function(filterData, cb) {
     filterData[0]['addr'] = filterData[0].address;
     if (filterData[0].unit) {
       filterData[0]['aptNum'] = filterData[0].unit;
@@ -32,12 +32,12 @@ module.exports = function(Listings) {
       cb(null, JSON.parse(JSON.stringify((listings)), {}));
     });
   },
-  Listings.remoteMethod('findFilteredListing', {
+  Listings.remoteMethod('findListingByAddress', {
     accepts: {arg: 'filterData', type: 'array'},
     returns: {arg: 'items', type: Listings},
   });
 
-  Listings.findFilteredListingInactiveCount = function(filterData, cb) {
+  Listings.findListingInactiveByAddressCount = function(filterData, cb) {
     filterData[0]['addr'] = filterData[0].address;
     if (filterData[0].unit) {
       filterData[0]['aptNum'] = filterData[0].unit;
@@ -49,12 +49,12 @@ module.exports = function(Listings) {
       cb(null, count);
     });
   },
-  Listings.remoteMethod('findFilteredListingInactiveCount', {
+  Listings.remoteMethod('findListingInactiveByAddressCount', {
     accepts: {arg: 'filterData', type: 'array'},
     returns: {arg: 'totalItems', type: Listings},
   });
 
-  Listings.findFilteredListingInactive = function(filterData, cb) {
+  Listings.findListingInactiveByAddress = function(filterData, cb) {
     filterData[0]['addr'] = filterData[0].address;
     if (filterData[0].unit) {
       filterData[0]['aptNum'] = filterData[0].unit;
@@ -69,7 +69,7 @@ module.exports = function(Listings) {
       cb(null, JSON.parse(JSON.stringify((listings)), {}));
     });
   },
-  Listings.remoteMethod('findFilteredListingInactive', {
+  Listings.remoteMethod('findListingInactiveByAddress', {
     accepts: {arg: 'filterData', type: 'array'},
     returns: {arg: 'items', type: Listings},
   });
