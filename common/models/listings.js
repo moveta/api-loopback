@@ -25,7 +25,7 @@ module.exports = function(Listings) {
     }
     filterData[0]['isActive'] = 1;
     filterData[0]['listingsTypeId'] = {'neq': 2};
-    //delete filterData[0]['address'];
+    delete filterData[0]['address'];
     Listings.find({
       where: filterData[0],
     }, function(err, listings) {
